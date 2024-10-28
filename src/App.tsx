@@ -7,6 +7,8 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <h1>Tic-Tac-Toe</h1>
+      <h1 id="player-inidicator">Player's Turn</h1>
+      <button id="start-btn">Start Game</button>
       <Board />
     </div>
   );
